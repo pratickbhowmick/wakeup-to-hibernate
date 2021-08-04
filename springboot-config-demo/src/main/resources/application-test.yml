@@ -1,0 +1,11 @@
+my:
+  greeting: Hello World
+  list: one,two,three
+  keyvalue: {key1:'value1',key2:'value2'}
+
+db:
+  connection: "{connectedString: 'http://____', userName: 'foo', password: 'bartest'}"
+  host: 129.0.0.1
+  port: 1000
+
+management.endpoints.web.exposure.include: "*"

@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: 840242550221284
+      clientSecret: 1e671f8c55e64494794e1960f5ebc347
+      accessTokenUri: https://graph.faceboook.com/oauth/access_token
+      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://graph.faceboook.com/me
