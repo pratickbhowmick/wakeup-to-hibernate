@@ -1,0 +1,10 @@
+.idea/
+tutorials.iml
+/spring
+
+!*/
+*/*
+!*/src
+!*/pom.xml
+
+!README.md
